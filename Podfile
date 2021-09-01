@@ -6,16 +6,11 @@ target 'Example' do
   use_frameworks!
 
   # Pods for Example
-
   pod 'AFNetworking'
   pod 'SDWebImage'
   pod 'MJExtension'
   pod 'WCDB'
-
   pod 'XLForm'
-
-  pod 'NIMKit'
   pod 'NIMSDK_LITE'
-
   pod 'TXLiteAVSDK_Professional'
 end

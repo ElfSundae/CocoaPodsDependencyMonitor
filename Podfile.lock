@@ -14,46 +14,23 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FLAnimatedImage (1.0.16)
-  - M80AttributedLabel (1.9.9)
   - MJExtension (3.3.0)
-  - NIMKit (3.6.0):
-    - NIMKit/Lite (= 3.6.0)
-  - NIMKit/Core (3.6.0):
-    - FLAnimatedImage (~> 1.0.12)
-    - M80AttributedLabel (~> 1.9.9)
-    - SDWebImage (~> 5.0.6)
-    - Toast (~> 3.0)
-    - TZImagePickerController (~> 3.5.2)
-    - YYImage (~> 1.0.4)
-    - YYImage/WebP (~> 1.0.4)
-  - NIMKit/Lite (3.6.0):
-    - NIMKit/Core
-    - NIMSDK_LITE (~> 8.6.0)
-  - NIMSDK_LITE (8.6.2)
-  - SDWebImage (5.0.6):
-    - SDWebImage/Core (= 5.0.6)
-  - SDWebImage/Core (5.0.6)
+  - NIMSDK_LITE (8.7.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
   - SQLiteRepairKit (1.2.2):
     - WCDBOptimizedSQLCipher (~> 1.2.0)
-  - Toast (3.1.0)
   - TXLiteAVSDK_Professional (9.0.10433)
-  - TZImagePickerController (3.5.9)
   - WCDB (1.0.7.5):
     - SQLiteRepairKit (~> 1.2.0)
     - WCDBOptimizedSQLCipher (~> 1.2.0)
   - WCDBOptimizedSQLCipher (1.2.1)
   - XLForm (4.3.0)
-  - YYImage (1.0.4):
-    - YYImage/Core (= 1.0.4)
-  - YYImage/Core (1.0.4)
-  - YYImage/WebP (1.0.4):
-    - YYImage/Core
 
 DEPENDENCIES:
   - AFNetworking
   - MJExtension
-  - NIMKit
   - NIMSDK_LITE
   - SDWebImage
   - TXLiteAVSDK_Professional
@@ -63,38 +40,26 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - FLAnimatedImage
-    - M80AttributedLabel
     - MJExtension
-    - NIMKit
     - NIMSDK_LITE
     - SDWebImage
     - SQLiteRepairKit
-    - Toast
     - TXLiteAVSDK_Professional
-    - TZImagePickerController
     - WCDB
     - WCDBOptimizedSQLCipher
     - XLForm
-    - YYImage
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  FLAnimatedImage: 8f3e854ebf9680b71f0b6e700939687fc4d82b4b
-  M80AttributedLabel: 77fedfe63804c989a6de0fa4d400ea8cad3ab441
   MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
-  NIMKit: 49c33dd0626d9e7271f25048c587a1fe7f3de2bf
-  NIMSDK_LITE: 4be1326e1b77d6a84070662c4bd8eba8536f7815
-  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  NIMSDK_LITE: e70c01f89353c0f39a42091ea8674f838efe4a17
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
-  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
   TXLiteAVSDK_Professional: b3b177c78bb08575fb5c2a85e9bcc061fbeba1d9
-  TZImagePickerController: 07a2f834f4908689759a7e54f74e9a018e047cb6
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
   XLForm: a439f9512078ed538e8335c8b06d3f3286bbfd37
-  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: 95f3c2243b32e7d7f3b8101701b936a4159f2359
+PODFILE CHECKSUM: b97ed414c5600e30981e02f93f827b3eb08e450a
 
 COCOAPODS: 1.10.2
