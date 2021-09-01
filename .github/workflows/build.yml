@@ -1,0 +1,21 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: pod install
+
+      - name: Build Example Project
+        run: |
+          xcodebuild clean build \
+            -workspace Example.xcworkspace \
+            -scheme Example \
+            -configuration Debug \
+            -sdk iphonesimulator \
+            CODE_SIGN_IDENTITY=- | xcpretty
